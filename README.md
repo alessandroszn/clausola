@@ -13,7 +13,7 @@ You paste in a consumer financial contract — loan, lease, mortgage, instalment
 
 ## How to try it, in ten seconds
 
-Try it in the browser: **https://<user>.github.io/clausola/**
+Try it in the browser: **https://alessandroszn.github.io/clausola**
 
 Or open **`clausola.html`** with a double click — which is the way to read a contract of your own, for the reason under *Limits*. No server, nothing to install, no API key.
 Six sample contracts are already inside — two offers each of a personal loan (same CHF 12'000),
