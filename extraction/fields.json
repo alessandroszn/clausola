@@ -1,0 +1,497 @@
+{
+ "_note": "Language-independent ground truth: values plus the location of the clause. The quotation itself is extracted from each language's contract at build time, so a quote is always an exact substring of the document the user is looking at — in every language.",
+ "01_personal_loan": {
+  "type": {
+   "value": "consumer_credit",
+   "where": "heading"
+  },
+  "financed_amount": {
+   "value": 12000,
+   "where": "Art. 2.1"
+  },
+  "monthly_payment": {
+   "value": 375.5,
+   "where": "Art. 2.3"
+  },
+  "term_months": {
+   "value": 36,
+   "where": "Art. 2.2"
+  },
+  "nar_percent": {
+   "value": 7.9,
+   "where": "Art. 2.4"
+  },
+  "apr_percent": {
+   "value": 10.34,
+   "where": "Art. 2.5"
+  },
+  "upfront_fees": {
+   "value": 250,
+   "where": "Art. 3.1"
+  },
+  "fee_per_payment": {
+   "value": 3,
+   "where": "Art. 3.2"
+  },
+  "down_payment": {
+   "value": 0,
+   "where": null
+  },
+  "buyout_value": {
+   "value": 0,
+   "where": null
+  },
+  "single_payment_alternative": {
+   "value": null,
+   "where": null
+  },
+  "auto_renewal": {
+   "value": false,
+   "where": "Art. 7.2"
+  },
+  "cancellation_notice_days": {
+   "value": null,
+   "where": null
+  },
+  "exit_lockin_months": {
+   "value": 0,
+   "where": "Art. 5.1"
+  },
+  "exit_notice_days": {
+   "value": 30,
+   "where": "Art. 5.1"
+  },
+  "exit_penalty_type": {
+   "value": "percent_of_outstanding_capital",
+   "where": "Art. 5.2"
+  },
+  "exit_penalty_percent": {
+   "value": 1.0,
+   "where": "Art. 5.2"
+  },
+  "exit_fixed_fees": {
+   "value": 0,
+   "where": null
+  },
+  "insurance_required": {
+   "value": false,
+   "where": "Art. 4.1"
+  },
+  "insurance_monthly_cost": {
+   "value": 8.5,
+   "where": "Art. 4.2"
+  },
+  "_exit_penalty_waiver_months": 12
+ },
+ "01b_personal_loan": {
+  "type": {
+   "value": "consumer_credit",
+   "where": "heading"
+  },
+  "financed_amount": {
+   "value": 12000,
+   "where": "Art. 2.1"
+  },
+  "monthly_payment": {
+   "value": 286.8,
+   "where": "Art. 2.3"
+  },
+  "term_months": {
+   "value": 48,
+   "where": "Art. 2.2"
+  },
+  "nar_percent": {
+   "value": 6.9,
+   "where": "Art. 2.4"
+  },
+  "apr_percent": {
+   "value": 8.69,
+   "where": "Art. 2.5"
+  },
+  "upfront_fees": {
+   "value": 150,
+   "where": "Art. 3.1"
+  },
+  "fee_per_payment": {
+   "value": 4.5,
+   "where": "Art. 3.2"
+  },
+  "down_payment": {
+   "value": 0,
+   "where": null
+  },
+  "buyout_value": {
+   "value": 0,
+   "where": null
+  },
+  "single_payment_alternative": {
+   "value": null,
+   "where": null
+  },
+  "auto_renewal": {
+   "value": false,
+   "where": "Art. 7.2"
+  },
+  "cancellation_notice_days": {
+   "value": null,
+   "where": null
+  },
+  "exit_lockin_months": {
+   "value": 0,
+   "where": "Art. 5.1"
+  },
+  "exit_notice_days": {
+   "value": 30,
+   "where": "Art. 5.1"
+  },
+  "exit_penalty_type": {
+   "value": "percent_of_outstanding_capital",
+   "where": "Art. 5.2"
+  },
+  "exit_penalty_percent": {
+   "value": 1.0,
+   "where": "Art. 5.2"
+  },
+  "exit_fixed_fees": {
+   "value": 0,
+   "where": null
+  },
+  "insurance_required": {
+   "value": false,
+   "where": "Art. 4.1"
+  },
+  "insurance_monthly_cost": {
+   "value": 9.9,
+   "where": "Art. 4.2"
+  },
+  "_exit_penalty_waiver_months": 12
+ },
+ "02_car_lease": {
+  "type": {
+   "value": "lease",
+   "where": "heading"
+  },
+  "financed_amount": {
+   "value": 28000,
+   "where": "A.1"
+  },
+  "monthly_payment": {
+   "value": 349,
+   "where": "A.3"
+  },
+  "term_months": {
+   "value": 48,
+   "where": "A.4"
+  },
+  "nar_percent": {
+   "value": null,
+   "where": null
+  },
+  "apr_percent": {
+   "value": null,
+   "where": null
+  },
+  "upfront_fees": {
+   "value": 390,
+   "where": "A.6"
+  },
+  "fee_per_payment": {
+   "value": 0,
+   "where": null
+  },
+  "down_payment": {
+   "value": 4000,
+   "where": "A.2"
+  },
+  "buyout_value": {
+   "value": 9800,
+   "where": "A.5"
+  },
+  "single_payment_alternative": {
+   "value": null,
+   "where": null
+  },
+  "auto_renewal": {
+   "value": false,
+   "where": "B.7"
+  },
+  "cancellation_notice_days": {
+   "value": null,
+   "where": null
+  },
+  "exit_lockin_months": {
+   "value": 12,
+   "where": "B.4.1"
+  },
+  "exit_notice_days": {
+   "value": 60,
+   "where": "B.4.1"
+  },
+  "exit_penalty_type": {
+   "value": "remaining_instalments_plus_percent",
+   "where": "B.4.2"
+  },
+  "exit_penalty_percent": {
+   "value": 5.0,
+   "where": "B.4.2"
+  },
+  "exit_fixed_fees": {
+   "value": 450,
+   "where": "B.4.3"
+  },
+  "insurance_required": {
+   "value": true,
+   "where": "B.2.1"
+  },
+  "insurance_monthly_cost": {
+   "value": null,
+   "where": null
+  }
+ },
+ "02b_car_lease": {
+  "type": {
+   "value": "lease",
+   "where": "heading"
+  },
+  "financed_amount": {
+   "value": 28000,
+   "where": "A.1"
+  },
+  "monthly_payment": {
+   "value": 319,
+   "where": "A.3"
+  },
+  "term_months": {
+   "value": 48,
+   "where": "A.4"
+  },
+  "nar_percent": {
+   "value": null,
+   "where": null
+  },
+  "apr_percent": {
+   "value": null,
+   "where": null
+  },
+  "upfront_fees": {
+   "value": 490,
+   "where": "A.6"
+  },
+  "fee_per_payment": {
+   "value": 0,
+   "where": null
+  },
+  "down_payment": {
+   "value": 5500,
+   "where": "A.2"
+  },
+  "buyout_value": {
+   "value": 8900,
+   "where": "A.5"
+  },
+  "single_payment_alternative": {
+   "value": null,
+   "where": null
+  },
+  "auto_renewal": {
+   "value": false,
+   "where": "B.7"
+  },
+  "cancellation_notice_days": {
+   "value": null,
+   "where": null
+  },
+  "exit_lockin_months": {
+   "value": 24,
+   "where": "B.4.1"
+  },
+  "exit_notice_days": {
+   "value": 60,
+   "where": "B.4.1"
+  },
+  "exit_penalty_type": {
+   "value": "remaining_instalments_plus_percent",
+   "where": "B.4.2"
+  },
+  "exit_penalty_percent": {
+   "value": 3.0,
+   "where": "B.4.2"
+  },
+  "exit_fixed_fees": {
+   "value": 800,
+   "where": "B.4.3"
+  },
+  "insurance_required": {
+   "value": true,
+   "where": "B.2.1"
+  },
+  "insurance_monthly_cost": {
+   "value": null,
+   "where": null
+  }
+ },
+ "03_motor_policy": {
+  "type": {
+   "value": "insurance",
+   "where": "heading"
+  },
+  "financed_amount": {
+   "value": null,
+   "where": null
+  },
+  "monthly_payment": {
+   "value": 68,
+   "where": "2.2"
+  },
+  "term_months": {
+   "value": 12,
+   "where": "1.2"
+  },
+  "nar_percent": {
+   "value": null,
+   "where": null
+  },
+  "apr_percent": {
+   "value": null,
+   "where": null
+  },
+  "upfront_fees": {
+   "value": 25,
+   "where": "2.4"
+  },
+  "fee_per_payment": {
+   "value": 0,
+   "where": null
+  },
+  "down_payment": {
+   "value": 0,
+   "where": null
+  },
+  "buyout_value": {
+   "value": 0,
+   "where": null
+  },
+  "single_payment_alternative": {
+   "value": 780,
+   "where": "2.1"
+  },
+  "auto_renewal": {
+   "value": true,
+   "where": "1.3"
+  },
+  "cancellation_notice_days": {
+   "value": 90,
+   "where": "1.4"
+  },
+  "exit_lockin_months": {
+   "value": 36,
+   "where": "3.1"
+  },
+  "exit_notice_days": {
+   "value": 90,
+   "where": "1.4"
+  },
+  "exit_penalty_type": {
+   "value": "repay_discounts",
+   "where": "3.2"
+  },
+  "exit_penalty_percent": {
+   "value": 15.0,
+   "where": "3.1"
+  },
+  "exit_fixed_fees": {
+   "value": 0,
+   "where": null
+  },
+  "insurance_required": {
+   "value": false,
+   "where": null
+  },
+  "insurance_monthly_cost": {
+   "value": null,
+   "where": null
+  }
+ },
+ "03b_motor_policy": {
+  "type": {
+   "value": "insurance",
+   "where": "heading"
+  },
+  "financed_amount": {
+   "value": null,
+   "where": null
+  },
+  "monthly_payment": {
+   "value": 63,
+   "where": "2.2"
+  },
+  "term_months": {
+   "value": 12,
+   "where": "1.2"
+  },
+  "nar_percent": {
+   "value": null,
+   "where": null
+  },
+  "apr_percent": {
+   "value": null,
+   "where": null
+  },
+  "upfront_fees": {
+   "value": 40,
+   "where": "2.4"
+  },
+  "fee_per_payment": {
+   "value": 0,
+   "where": null
+  },
+  "down_payment": {
+   "value": 0,
+   "where": null
+  },
+  "buyout_value": {
+   "value": 0,
+   "where": null
+  },
+  "single_payment_alternative": {
+   "value": 715,
+   "where": "2.1"
+  },
+  "auto_renewal": {
+   "value": true,
+   "where": "1.3"
+  },
+  "cancellation_notice_days": {
+   "value": 90,
+   "where": "1.4"
+  },
+  "exit_lockin_months": {
+   "value": 60,
+   "where": "3.1"
+  },
+  "exit_notice_days": {
+   "value": 90,
+   "where": "1.4"
+  },
+  "exit_penalty_type": {
+   "value": "repay_discounts",
+   "where": "3.2"
+  },
+  "exit_penalty_percent": {
+   "value": 20.0,
+   "where": "3.1"
+  },
+  "exit_fixed_fees": {
+   "value": 0,
+   "where": null
+  },
+  "insurance_required": {
+   "value": false,
+   "where": null
+  },
+  "insurance_monthly_cost": {
+   "value": null,
+   "where": null
+  }
+ }
+}

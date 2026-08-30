@@ -1,0 +1,64 @@
+{
+ "_note": "Differences observed between the first reading and the two that follow, on the same contract. They feed the prototype's demo mode without needing a model running. The rule used to choose them: fields written out in words in the contract (instalment, term, rates) stay stable; fields that require joining two points of the text, or deciding what counts as a 'fee', are the ones a small model wavers on. These are not measurements: they are a working hypothesis, to be replaced by real data as soon as extractor.py runs on a machine with LM Studio.",
+ "01_personal_loan": {
+  "run2": {
+   "fee_per_payment": 0,
+   "insurance_monthly_cost": null
+  },
+  "run3": {
+   "exit_penalty_percent": 1.0,
+   "insurance_monthly_cost": 8.5,
+   "insurance_required": true
+  }
+ },
+ "02_car_lease": {
+  "run2": {
+   "financed_amount": null,
+   "exit_penalty_type": "remaining_instalments_plus_percent",
+   "exit_fixed_fees": 0
+  },
+  "run3": {
+   "financed_amount": 28000,
+   "exit_lockin_months": 0,
+   "exit_fixed_fees": 450
+  }
+ },
+ "03_motor_policy": {
+  "run2": {
+   "upfront_fees": 0,
+   "exit_lockin_months": 36,
+   "single_payment_alternative": 780
+  },
+  "run3": {
+   "upfront_fees": 25,
+   "exit_penalty_type": "none",
+   "exit_lockin_months": 12
+  }
+ },
+ "01b_personal_loan": {
+  "run2": {
+   "fee_per_payment": 0
+  },
+  "run3": {
+   "insurance_monthly_cost": null
+  }
+ },
+ "02b_car_lease": {
+  "run2": {
+   "exit_fixed_fees": 0
+  },
+  "run3": {
+   "financed_amount": null,
+   "exit_lockin_months": 12
+  }
+ },
+ "03b_motor_policy": {
+  "run2": {
+   "upfront_fees": 0
+  },
+  "run3": {
+   "exit_lockin_months": 36,
+   "single_payment_alternative": null
+  }
+ }
+}
